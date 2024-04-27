@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The Last Resort</title>
+        <meta name="author" content="Benjamin Posy">
+        <meta name="description" content="Cut your stress into pieces this is The Last Resort.">
+        <!-- Favicon -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="cssobfuscated.css">
+    </head>
+    <header>
+        <h1><a href="index.html">The Last Resort</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <div class="container">
+        <div id="intro-contact">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+            Required fields marked with a *</p>
+    <img src="images/swiss-peak.jpg" width="280" height="720" alt="Mountain with green trees in the forground.">
+        </div> 
+         <form>
+            <label for="name">Full Name:<span class="required">*</span></label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="my-email">Email Address: <span class="required">*</span></label><br>
+            <input type="email" name="my-email" id="my-email" required><br>
+            <label for="phone">Phone number:<span class="required">*</span></label><br>
+            <input type="tel" id="phone" name="phone" required pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+            <label for="my-comments">Comments</label><span class="required">*</span><br>
+            <textarea name="my-comments" id="my-comments" required></textarea><br>
+
+        <fieldset>
+            <legend>Preferred Method of Contact<span class="required">*</span></legend>
+                        
+            <input type="radio" name="contact-pref" id="pref-email" value="prefer-email" required checked>
+            <label for="pref-email">Email</label>
+                        
+            <input type="radio" name="contact-pref" id="pref-phone" value="prefer-phone">
+            <label for="pref-phone">Phone</label>
+                        
+          </fieldset><br>
+        <input type="submit" name="mySubmit" id="mySubmit" value="Submit Form">
+      </form>
+      </div>
+      </body>
+      <footer>
+        <p>Copyright ©2023 -The Last Resort </p>
+        <p>This site is for educational purposes only</p>
+    </footer>
